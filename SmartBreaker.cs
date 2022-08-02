@@ -74,7 +74,7 @@ namespace IngameScript
                     
                     if (tblock.DetailedInfo.Contains("Time to trigger: 00:00:00"))
                     {
-                        // Find funcitonal blocks onluy
+                        // Find funcitonal blocks only
                         List<IMyFunctionalBlock> everything = new List<IMyFunctionalBlock>();
                         GridTerminalSystem.GetBlocksOfType(everything);
 
