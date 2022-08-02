@@ -64,7 +64,8 @@ namespace IngameScript
             {
                 buttonpanel.FontColor = Color.Green;
                 buttonpanel.WriteText("Wakeup\nEnabled");
-
+                
+                // This will check if you or another person is present.
                 if (sblock.LastDetectedEntity.IsEmpty())
                 {
                     if (!tblock.IsCountingDown)
