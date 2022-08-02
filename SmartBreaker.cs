@@ -57,7 +57,7 @@ namespace IngameScript
             sblock.FrontExtend = 50;
             sblock.BackExtend = 250;
 
-            tblock.TriggerDelay = 10800; // 3 Hours (14400 seconds)
+            tblock.TriggerDelay = 10800; // 3 Hours (10800 seconds)
 
             // Check if sensor was enabled through the button.
             if (sblock.Enabled)
