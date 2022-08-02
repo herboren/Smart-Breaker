@@ -1,5 +1,5 @@
 # Smart Breaker
- Keeps power running, when away or outside of the grid for long period of time.
+ Keeps power running, when away or outside of the grid after a period of time.
  
  ## Requirements:
  - 1 Programmable Block (**name:** pb)
